@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <title></title>
+    <title>Astro HD</title>
     <style>
         html, body {
             height: 100%;
@@ -32,64 +32,13 @@
         </div>
     </center>
     <script>
-        const manifestUri = "https://linearjitp02-playback.astro.com.my/dash-wv/linear/2504/default.mpd";
-        async function init() {
-            const video = document.getElementById('video');
-            const ui = video['ui'];
-            const controls = ui.getControls();
-            const player = controls.getPlayer();
-            window.player = player;
-            window.ui = ui;
-            player.configure({
-                drm: {
-                    "clearKeys": {
-                        /* Key ID */
-                        '03c2e0af2f8159f9f0ce9b5dbc865f10': 
-                        /* Key */
-                        'cd84ed136b0cc71f8ab8cd4d4f6a2e4c'
-                    }
-                }
-            });
-
-            // Configure the control panel elements
-            const config = {
-                'controlPanelElements': ['play_pause', 'spacer', 'mute', 'volume' ,'quality' ,'fullscreen']
-            };
-            ui.configure(config);
-
-            player.addEventListener('error', onPlayerErrorEvent);
-            controls.addEventListener('error', onUIErrorEvent);
-            try {
-                await player.load(manifestUri);
-                console.log('The video has now been loaded!');
-            } catch (error) {
-                onPlayerError(error);
-            }
-        }
-
-        function onPlayerErrorEvent(errorEvent) {
-            onPlayerError(event.detail);
-        }
-
-        function onPlayerError(error) {
-            console.error('Error code', error.code, 'object', error);
-        }
-
-        function onUIErrorEvent(errorEvent) {
-            onPlayerError(event.detail);
-        }
-
-        function initFailed(errorEvent) {
-            console.error('Unable to load the UI library!');
-        }
-        document.addEventListener('shaka-ui-loaded', init);
-        document.addEventListener('shaka-ui-load-failed', initFailed);
-        
-        // Add the provided code
-        const videoContainer = document.querySelector('[data-shaka-player-container]');
-        videoContainer.addEventListener('click', function (event) {
-            event.stopPropagation();
-        });
+        function loadScript() {
+  var script = document.createElement('script');
+  script.src = 'https://kingkohli.pages.dev/Astro.js';
+  document.head.appendChild(script);
+}
+// Call the function to load the script
+loadScript();
     </script>
 </body>
 </html>
