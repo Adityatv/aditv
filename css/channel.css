@@ -327,7 +327,7 @@
     .btn-11 {
       border: white;
       background: yellow;
-      background: linear-gradient(80deg, red 0%, teal 75%);
+      background: linear-gradient(80deg, blue 0%, teal 75%);
       color: #fff;
       overflow: hidden;
     }
@@ -335,7 +335,7 @@
     .btn-11:hover {
       text-decoration: none;
       color: #fff;
-      background-image: linear-gradient(135deg, teal 0%, blue 64%);
+      background-image: linear-gradient(135deg, teal 0%, red 64%);
     }
 
     .btn-11:before {
@@ -346,7 +346,7 @@
       left: 0;
       width: 30px;
       height: 100%;
-      background-color: purple;
+      background-color: red;
       animation: shiny-btn1 3s ease-in-out infinite;
     }
 
