@@ -23,7 +23,7 @@
       overflow: hidden;
     }
     #right-button {
-  background: linear-gradient(135deg, blue 0%, yellow 130%);
+  background: linear-gradient(135deg, blue 0%, pink 130%);
 }
 
 
@@ -41,7 +41,7 @@
       left: 0;
       width: 30px;
       height: 100%;
-      background-color: yellow;
+      background-color: red;
       animation: shiny-btn1 3s ease-in-out infinite;
     }
 
