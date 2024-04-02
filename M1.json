@@ -292,7 +292,7 @@
           "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/657978a7c5625a16ee72e958/images/402.webp",
         "name": "Star Sports 1 HD",
         "id": "Sports_1",
-        "link": "https://liveb.streamready.in/starsports1hd/smil:common.smil/manifest.mpd?|drmScheme=clearkey&drmLicense=https://denver1769.in/TP/Atv.php?id=2102",
+        "link": "https://rftv.wtf/tp/tplay.mpd?contentID=78?|drmScheme=clearkey&drmLicense=https://rftv.wtf/tp/tplay.php?contentID=78&key",
         "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
 },
 
@@ -300,7 +300,7 @@
           "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/657978f46cbc4372820a5bdf/images/237.webp",
         "name": "Star Sports 1 Hindi HD",
         "id": "Sports_1_Hindi",
-        "link": "https://liveb.streamready.in/starsports1hdhindi/smil:common.smil/manifest.mpd?|drmScheme=clearkey&drmLicense=https://denver1769.in/TP/Atv.php?id=2105",
+        "link": "https://rftv.wtf/tp/tplay.mpd?contentID=24?|drmScheme=clearkey&drmLicense=https://rftv.wtf/tp/tplay.php?contentID=24&key",
         "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
 }
 
