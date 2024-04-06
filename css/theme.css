@@ -23,7 +23,7 @@
       overflow: hidden;
     }
     #right-button {
-  background: linear-gradient(135deg, orange 30%, yellow 120%);
+  background: linear-gradient(135deg, pink 30%, red 120%);
     }
 
     .btn-11:hover {
@@ -40,7 +40,7 @@
       left: 0;
       width: 30px;
       height: 100%;
-      background-color: yellow;
+      background-color: red;
       animation: shiny-btn1 3s ease-in-out infinite;
     }
 
