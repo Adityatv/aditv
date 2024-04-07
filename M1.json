@@ -306,16 +306,16 @@
 
    {
           "logo": "https://v3img.voot.com/v3Storage/assets/hangout_8x3_generic-1711491672678.jpg",
-        "name": "Hang cut",
-        "id": "Hang_cut",
+        "name": "Hang Out",
+        "id": "Hang_out",
         "link": "https://prod-sports-cohort-gm.jiocinema.com/hls/live/2109975/hd_akamai_iosmob_avc_lifestyle_ipl_s1_m1070424/master.m3u8",
         "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
 },
 
    {
           "logo": "https://v3img.voot.com/v3Storage/assets/hangout_8x3_generic-1711491672678.jpg",
-        "name": "Hang cut",
-        "id": "Hang_cut_4K",
+        "name": "Hang Out 4K",
+        "id": "Hang_out_4K",
         "link": "https://prod-ent-live-gm.jiocinema.com/out/v1/b03529f8c0154d29ac5a225d78c6d65a/master.m3u8",
         "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
 },
