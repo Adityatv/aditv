@@ -345,14 +345,25 @@ updateTime();
       icon: image
     };
 
-    // Check if notifications are supported and permission is granted
-    if (("Notification" in window) && (Notification.permission === "granted")) {
-      const notification = new Notification(title, options);
-      notification.addEventListener("click", function() {
-        // Handle notification click event if needed
-        console.log("Notification clicked");
-      });
+    // Check if notifications are supported
+    if (!("Notification" in window)) {
+      console.error("Notifications are not supported in this browser");
+      return;
     }
+
+    // Request permission for notifications
+    Notification.requestPermission().then(function(permission) {
+      if (permission === "granted") {
+        // Notification permission granted, send notification
+        const notification = new Notification(title, options);
+        notification.addEventListener("click", function() {
+          // Handle notification click event if needed
+          console.log("Notification clicked");
+        });
+      } else {
+        console.warn("Notification permission denied");
+      }
+    });
   }
 
   // Function to fetch JSON data and schedule notifications
@@ -372,7 +383,7 @@ updateTime();
         const image = data.image;
 
         // Message with dynamic content
-        const message = `The ${team1} Va ${team2} Match Was Started, What Are You Waiting For Watch Now.`;
+        const message = `The ${team1} Vs ${team2} Started, What Are You Waiting For.`;
 
         // Check if it's Monday to Friday 6:30pm or Saturday & Sunday 3:00pm or 6:30pm
         if ((currentDay >= 1 && currentDay <= 5 && currentHour === 18 && currentMinute === 30) ||
