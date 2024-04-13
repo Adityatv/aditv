@@ -23,10 +23,21 @@
       overflow: hidden;
     }
     #right-button {
-  background: linear-gradient(135deg, blue -5%, red 100%);
+  background: linear-gradient(135deg, #fd1136 -5%, #fe4ea4 100%);
 }
 
-
+.GetColors {
+CSK: yellow ;
+DC: #1c80dd ;
+GT: MidnightBlue ;
+KKR: purple ;
+LSG:  #fd1136 ;
+MI: #023ac2 ;
+PBKS: #fd1136 ;
+RCB: red ;
+RR: #fe4ea4 ;
+SRH: orange ;
+}
     .btn-11:hover {
       text-decoration: none;
       color: #fff;
