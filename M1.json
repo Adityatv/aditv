@@ -292,7 +292,7 @@
           "logo": "https://v3img.voot.com/resizeMedium,w_1090,h_613/jioimage/55/11/30a4ace0f44611eda5df31ebbff91807_1684281781940_l.jpg",
         "name": "The Insider",
         "id": "The_Insider",
-        "link": "https://prod-sports-cohort-gm.jiocinema.com/hls/live/2109927/uhd_akamai_atv_avc_insider_ipl_s2_m2140424/index.m3u8",
+        "link": "https://prod-sports-cohort.jiocinema.com/hls/live/2109927/hd_akamai_iosmob_avc_insider_ipl_s2_m2140424/master.m3u8",
         "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
 },
 
