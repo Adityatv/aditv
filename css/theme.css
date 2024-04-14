@@ -23,7 +23,7 @@
       overflow: hidden;
     }
     #right-button {
-  background: linear-gradient(135deg, purple -5%, #fd1136 100%);
+  background: linear-gradient(135deg, #023ac2 -5%, yellow 100%);
 }
 
 .GetColors {
