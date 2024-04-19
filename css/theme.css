@@ -23,7 +23,7 @@
       overflow: hidden;
     }
     #right-button {
-  background: linear-gradient(135deg, #fd1136 -5%, yellow 100%);
+  background: linear-gradient(135deg, ##1e72b0 -5%, yellow 100%);
 }
 
 .GetColors {
@@ -31,7 +31,7 @@ CSK: yellow ;
 DC: #1c80dd ;
 GT: MidnightBlue ;
 KKR: purple ;
-LSG:  #fd1136 ;
+LSG:  ##1e72b0 ;
 MI: #023ac2 ;
 PBKS: #fd1136 ;
 RCB: red ;
